@@ -15,6 +15,6 @@ if (numero % 2 === 0) {
 }else if(numero % 7 === 0){
     esDivisiblePor = `El número ${numero} es divisible por 7`;
 }else{
-    esDivisiblePor=`El número ${numero} NO es divisible ni por 2, 3, 5 o 7`
+    esDivisiblePor=`El número ${numero} NO es divisible ni por 2, 3, 5 o 7`;
 }
-document.write(`<h1>${esDivisiblePor}</h1>`);
+document.write(`<p class="fs-3 text-center rounded-pill text-bg-secondary p-3">${esDivisiblePor}</p>`);
