@@ -1,5 +1,17 @@
 # Trabajo Práctico N°1
-## Ejercicios javaScript
+En este trabajo práctico realizamos diferentes ejercicios para aprender los conceptos básicos del lenguaje JavaScript.
+Se resolvió haciendo uso de:
+* Variables:
+* Operadores
+    * Aritméticos: `+`, `-`, `/`, `*`, `%`
+    * Relacionales: `==`, `===`.`!=`, `>`, `<`
+    * Lógicos: `&&` y `||`
+* Estructuras condicionales: `if`, `if else` y `switch`
+* Bucles: `for`
+* Funciones de JS: `length` y `charAt`
+## Uso de GIT
+Haciendo uso de GIT se creó una rama `dev` a partir de la rama `main`. Luego por cada ejercicio se creo una rama `ejercicioN` donde se trabajó la resolución del ejercicio correspondiente a esa rama y luego se unieron los cambios a la rama `dev`. Una vez finalizados todos los ejercicios y comprobado que funcionan correctamente, se unió la rama `dev` a la rama `main` para tener todos los cambios. 
+## Ejercicios JavaScript
 ### Prácticas con variables
 
 1. Escribe un programa de una **sola línea** que haga que aparezca en la pantalla un `alert` que diga `“un mensaje”`. 
@@ -26,7 +38,10 @@
     * Respuesta en script `ej-10_TP-1.js` 
 11. Añadir al ejercicio anterior que **nos diga por cuál de los cuatro es divisible** (hay que decir todos por los que es divisible)
     * Respuesta en script `ej-11_TP-1.js` 
-
-
-
-
+## Autor
+[**César Luciano Angeleri**](https://www.linkedin.com/in/cesar-luciano-angeleri/)
+## Tecnologías utilizadas
+* HTML
+* CSS
+* **JavaScript**
+*  GIT y GitHub
