@@ -10,7 +10,7 @@ h1{
     color: royalblue;
     text-align: center;
 }
-ul{
+/* ul{
     display: flex;
     color: royalblue;
     font-size: 2rem;
@@ -22,4 +22,4 @@ ul li{
     border-radius: 1rem;
     padding: 1rem;
     margin: 0.25rem;
-}
+} */
