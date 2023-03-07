@@ -25,10 +25,14 @@ for (let i = 0; i < frase.length; i++) {
             vocalesEnFrase += frase.charAt(i);
             break;
         default:
-            console.log(`No se encontraron vocales en la iteración ${i}`)
+            console.log(`No se encontraron vocales en la iteración`)
             break;
     }
     console.log(vocalesEnFrase)
 }
+if (vocalesEnFrase !=""){
+    document.write(`<p class="fs-3 text-center rounded-pill text-bg-secondary p-3">Las vocales encontradas son: ${vocalesEnFrase}</p>`);
+}else{
+    document.write(`<p class="fs-3 text-center rounded-pill text-bg-secondary p-3">No se encontraron vocales en la frase</p>`);
+}
 
-document.write(`<h1>${vocalesEnFrase}</h1>`);
