@@ -4,4 +4,4 @@ Escribe un programa de dos líneas que pida el nombre
 del usuario con un prompt y escriba un texto que diga «Hola nombreUsuario»
 */
 let nombreUsuario = prompt("Ingrese el nombre del usuario: ")
-document.write(`<h1>Hola ${nombreUsuario}</h1>`);
+document.write(`<p class="fs-3 text-center rounded-pill text-bg-secondary p-3">Hola ${nombreUsuario}</h1>`);
