@@ -10,21 +10,21 @@ let numero = parseInt(prompt("Ingrese un número: "));
 let esDivisiblePor = ""
 
 if (numero % 2 === 0) {
-    esDivisiblePor += "<li>2</li>"
+    esDivisiblePor += `<li class="list-group-item rounded-pill fs-1 text-bg-success text-center">2</li>`
 } 
 if(numero % 3 === 0){
-    esDivisiblePor += "<li>3</li>"
+    esDivisiblePor += `<li class="list-group-item rounded-pill fs-1 text-bg-success text-center">3</li>`
 } 
 if(numero % 5 === 0){
-    esDivisiblePor += "<li>5</li>"
+    esDivisiblePor += `<li class="list-group-item rounded-pill fs-1 text-bg-success text-center">5</li>`
 } 
 if(numero % 7 === 0){
-    esDivisiblePor += "<li>7</li>"
+    esDivisiblePor += `<li class="list-group-item rounded-pill fs-1 text-bg-success text-center">7</li>`
 }
 if(numero % 2 !== 0 && numero % 3 !== 0 && numero % 5 !== 0 && numero % 7 !==0 ){
-    document.write(`<h1>El número ${numero} NO es divisible ni por 2, 3, 5 ni 7</h1>`);
+    document.write(`<p class="fs-3 text-center rounded-pill text-bg-secondary p-3">El número ${numero} NO es divisible ni por 2, 3, 5 ni 7</p>`);
 }
 if (esDivisiblePor != "") {
-    document.write(`<h1>El número ${numero} ES divisible por:</h1>`);
-    document.write(`<ul>${esDivisiblePor}</ul>`)
+    document.write(`<p class="fs-3 text-center rounded-pill text-bg-secondary p-3">El número ${numero} ES divisible por:</p>`);
+    document.write(`<ul class="list-group">${esDivisiblePor}</ul>`)
 }
