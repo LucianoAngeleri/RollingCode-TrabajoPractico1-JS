@@ -1,6 +1,25 @@
 *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 4rem 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1{
     color: royalblue;
+    text-align: center;
+}
+ul{
+    display: flex;
+    color: royalblue;
+    font-size: 2rem;
+    list-style: none;
+    justify-content: center;
+}
+ul li{
+    border: 1px solid royalblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.25rem;
 }
